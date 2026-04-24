@@ -54,7 +54,7 @@ fletApp/
 
 ## Vista previa de la aplicación
 
-![Pantalla de la aplicación](assets/pantallaApp.png)
+![Pantalla de la aplicación](src/assets/pantallaApp.png)
 
 La aplicación muestra una interfaz limpia y sencilla con un contenedor que incluye un saludo inicial y un título personalizado.
 
