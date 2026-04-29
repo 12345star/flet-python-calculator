@@ -14,7 +14,7 @@
     <meta property="og:description" content="Aplicación de escritorio desarrollada con Flet. Interfaz limpia, funcional y completamente responsiva.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://12345star.github.io/flet-python-calculator/">
-    <meta property="og:image" content="https://12345star.github.io/flet-python-calculator/src/assets/pantallaApp.png">
+    <meta property="og:image" content="https://12345star.github.io/flet-python-calculator/src/assets/pantallaApp.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Aplicación Flet - Calculadora">
     <meta name="twitter:description" content="Desarrolla aplicaciones de escritorio multiplataforma con Python y Flet">
-    <meta name="twitter:image" content="https://12345star.github.io/flet-python-calculator/src/assets/pantallaApp.png">
+    <meta name="twitter:image" content="https://12345star.github.io/flet-python-calculator/src/assets/pantallaApp.webp">
     
     <!-- Canonical URL para SEO -->
     <link rel="canonical" href="https://12345star.github.io/flet-python-calculator/index.html">
@@ -600,7 +600,32 @@
                         <h3>Vista Previa de la Aplicación</h3>
                         <p>La aplicación muestra una interfaz limpia y sencilla con un contenedor que incluye un saludo inicial, un título personalizado y elementos visuales bien definidos. Es una base perfecta para construir aplicaciones más complejas.</p>
                     </div>
-                    <img src="src/assets/pantallaApp.png" alt="Captura de pantalla de la aplicación Flet" class="preview-image">
+                     <picture>
+                      <!-- Imagen para móviles -->
+                      <source 
+                        media="(max-width: 600px)" 
+                        srcset="
+                          https://12345star.github.io/docker-postgres-python-fastapi/img/Estructura_Proyecto-mobile.webp 1x,
+                          https://12345star.github.io/docker-postgres-python-fastapi/img/Estructura_Proyecto-mobile@2x.webp 2x">
+                    
+                      <!-- Imagen para tablets -->
+                      <source 
+                        media="(max-width: 1024px)" 
+                        srcset="
+                          https://12345star.github.io/docker-postgres-python-fastapi/img/Estructura_Proyecto-tablet.webp 1x,
+                          https://12345star.github.io/docker-postgres-python-fastapi/img/Estructura_Proyecto-tablet@2x.webp 2x">
+                    
+                      <!-- Imagen principal (escritorio) -->
+                      <img 
+                        src="https://12345star.github.io/docker-postgres-python-fastapi/img/Estructura_Proyecto-desktop.webp"
+                        srcset="
+                          https://12345star.github.io/docker-postgres-python-fastapi/img/Estructura_Proyecto-desktop.webp 1x,
+                          https://12345star.github.io/docker-postgres-python-fastapi/img/Estructura_Proyecto-desktop@2x.webp 2x"
+                        alt="aptura de pantalla de la aplicación Flet"
+                        width="1200" height="900"
+                        fetchpriority="high"
+                        class="img-fluid" data-aos="fade-up" data-aos-duration="2000">
+                    </picture>
                 </div>
             </div>
         </section>
